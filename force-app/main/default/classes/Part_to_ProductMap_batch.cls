@@ -1,6 +1,9 @@
 /**
- * @description: To associate active parts with their product records.
- * @TestClass Part_to_ProductMap_batchTest
+ * Author: Abhinash D.
+ * Created Date: 20-03-2024
+ * Last Modified Date: 28-03-2024
+ * Description: To associate active parts with their product records.
+ * @TestClass: Part_to_ProductMap_batchTest
  */
 global with sharing class Part_to_ProductMap_batch implements Database.Batchable<sObject>{
 	
